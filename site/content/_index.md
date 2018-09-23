@@ -22,7 +22,7 @@ products:
     text: >-
       You've always wanted one, and now you can! Click now to get your own elf..
       thing..? (Elf, armor, sword, and backpack not included. Its really just a
-      bad of albino-white anime hair.)
+      bag of albino-white anime hair.)
 values:
   heading: Check out this guy harvesting bits
   text: >-
