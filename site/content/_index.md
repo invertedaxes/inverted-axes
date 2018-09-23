@@ -1,20 +1,36 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+title: Video games stuff on the internet
+subtitle: We 1-Up all them other video game guys
+image: /img/team-force-darkest-dungeon-b.png
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+  heading: Press Start to continue
+  text: 3... 2... 1...
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+  heading: Check out a thing we did
+  text: >-
+    Inverted Axes is your one-stop shop for super niche off-the-cuff video game
+    commentary. And if that wasn't enough we also have this stuff:
 products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+  - image: /img/shirt-front-example-2.png
+    text: >-
+      You've always wanted to be popular. Being noticed is a hard gig, though it
+      seems like billboards never have trouble with that do they? Put this on
+      and you'll transform into an Inverted Axes billboard. Hey it might even
+      make you- or more importantly, us- more popular! Buy now! (Popularity not
+      guaranteed or likely.)
+  - image: /img/onepanel.png
+    text: >-
+      You've always wanted one, and now you can! Click now to get your own elf..
+      thing..? (Elf, armor, sword, and backpack not included. Its really just a
+      bad of albino-white anime hair.)
 values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+  heading: Check out this guy harvesting bits
+  text: >-
+    It's incredible what modern science can do! These nutritious and rare
+    berries, which grow specifically in third-world countries were once used to
+    feed the local population. Now, they will be shortly ground up and used as
+    fuel for crypto-mining machines- which in turn create the virtual thingies
+    we share for good dick jokes! Go science! (I could't remove this picture, I
+    tried.)
 ---
 
