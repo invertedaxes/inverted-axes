@@ -1,17 +1,18 @@
 :root {
 	/* Colors */
-	--primary: rgba(255, 68, 0, 1);
-	--highlight: rgba(254, 213, 198, 1);
+	--primary: rgb(0, 153, 255);
+	--highlight: rgb(198, 236, 254);
 	--white: rgba(255, 255, 255, 1);
-	--off-white: rgba(255, 253, 252, 1);
-	--grey-1: rgba(245, 243, 242, 1);
-	--grey-2: rgba(235, 231, 230, 1);
-	--grey-3: rgba(89, 87, 86, 1);
-	--grey-4: rgba(66, 64, 64, 1);
-	--black: rgba(43, 37, 35, 1);
+	--off-white: rgb(252, 254, 255);
+	--grey-1: rgb(242, 244, 245);
+	--grey-2: rgb(230, 233, 235);
+	--grey-3: rgb(86, 88, 89);
+	--grey-4: rgb(64, 65, 66);
+	--black: rgb(35, 39, 43);
 
 	/* Typography */
-	--font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-header:  'Nunito Sans', sans-serif;
+	--font-body:  'Nunito Sans', sans-serif;
 	--line-height: 1.5;
 
 	--font-size: 18px;

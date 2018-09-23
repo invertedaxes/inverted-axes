@@ -11,7 +11,7 @@ html {
 
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-header);
   font-size: var(--spacing-medium);
   line-height: var(--line-height);
   font-weight: var(--body-font-weight);
@@ -38,6 +38,22 @@ sup {
   font-weight: 700;
   vertical-align: super;
 }
+
+.font-header {
+  font-family: var(--font-header);
+}
+
+.font-family {
+  font-family: var(--font-family);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-header);
+}
+
+p {
+  font-family: var(--font-body);
+}
+
 
 /* Measure is limited to ~66 characters */
 .measure {
