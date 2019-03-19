@@ -1,0 +1,8 @@
+.nav {
+  &__underline {
+    height: 4px;
+    width: 10%;
+
+    background-color: var(--primary);
+  }
+}
