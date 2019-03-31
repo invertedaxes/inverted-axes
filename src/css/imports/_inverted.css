@@ -1,8 +1,18 @@
-.nav {
-  &__underline {
-    height: 4px;
-    width: 10%;
+body {
+  border-left: 4px solid var(--black);
+} 
 
-    background-color: var(--primary);
-  }
+.nav__underline {
+  display: block;
+
+  height: 4px;
+  width: 100%;
+
+  background-color: var(--black);
+
+  transform: skewX(-45deg) translateX(-3px);
+}
+
+.nav__underline--reversed {
+  transform: skewX(45deg) translateX(-3px);
 }

@@ -4,12 +4,12 @@
 
 /* Used in the navbar */
 .divider {
-  box-shadow: inset 0 -4px 0 var(--black);
   /* Link hover states */
-  & a {
+  a {
     transition: var(--hover-transition);
   }
-  & ul a:hover, & ul a:focus {
+  
+  ul a:hover, ul a:focus {
     box-shadow: inset 0 -4px 0 var(--primary);
   }
 }
