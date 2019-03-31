@@ -6,4 +6,4 @@ image: /img/about-reinvest-profits.jpg
 ---
 body content
 
-![]()
+![null]()
