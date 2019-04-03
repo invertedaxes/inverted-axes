@@ -1,7 +1,10 @@
-<a href="{{ .Permalink }}" class="no-underline pa3 bg-grey-1 br1 mb2 db raise w-100">
-	{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-	<h2 class="f3 b lh-title mb1 primary">{{ .Title }}</h2>
-	<p class="mid-gray lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-	<p class="mb0">{{ .Description }}</p>
-	<p class="link b dib black mb0">Read more →</p>
+<a href="{{ .Permalink }}" class="article-preview no-underline br1 mb2 flex-ns w-100">
+	<!-- {{ if .Params.image }}<img class="article__thumbnail"src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }} -->
+	<div class="article-preview__content pa3">
+		<h2 class="f3 b lh-title mb1">{{ .Title }}</h2>
+		<p class="lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+		<p class="mb0">{{ .Description }}</p>
+		<p class="link b dib mb0">Read more →</p>
+	</div>
+	{{ if .Params.image }}<div class="article-preview__background" style="background-image: url('{{ .Params.image }}')"></div>{{ end }}
 </a>

@@ -35,4 +35,20 @@
 	/* Miscelaneous */
 	--border-radius: .25rem;
 	--hover-transition: all 150ms ease;
+
+	/* Custom */
+	--color-primary: 78, 205, 210;	/* blue color */
+	--color-primary-white: 233, 250, 255;
+	--color-primary-bright: 95, 245, 234;
+	--color-primary-dark: 70, 180, 190;
+
+	--color-secondary: 255, 107, 107;	/* red color */
+	--color-secondary-white: 255, 247, 247;
+	--color-secondary-bright: 255, 186, 186;
+	--color-secondary-dark: 229, 96, 96;
+	
+	--color-tertiary: 118, 224, 65;	/* green color */
+	--color-tertiary-white: 245, 251, 241;
+	--color-tertiary-bright: 225, 255, 207;
+	--color-tertiary-dark: 105, 197, 59;
 }

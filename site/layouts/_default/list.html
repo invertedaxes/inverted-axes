@@ -4,15 +4,16 @@
 
 <div class="bg-off-white pv4 mr1">
   <div class="mw7 center">
-      <ul class="flex-ns flex-wrap mhn1-ns pa3">
-          {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
-              <div class="w-50-ns ph1-ns flex">
-                {{ .Render "li"}}
-              </div>
-          {{ end }}
-      </ul>
-      {{ partial "pagination" . }}
-    </div>
+    <ul class="flex-ns flex-wrap mhn1-ns pa3">
+        {{ range (.Paginator 20).Pages.ByPublishDate.Reverse }}
+        <div class="article-preview__wrapper raise w-100-ns ph1-ns flex">
+          {{ .Render "li"}}
+        </div>
+      {{ end }}
+
+    </ul>
+    {{ partial "pagination" . }}
+  </div>
 </div>
 
 

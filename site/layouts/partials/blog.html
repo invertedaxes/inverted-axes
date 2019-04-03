@@ -5,7 +5,7 @@
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
 			{{ range first 12 (where .Data.Pages "Type" "post") }}
-				<div class="ph1-ns w-50-ns flex">
+				<div class="article-preview__wrapper raise ph1-ns w-50-ns w-100-ns flex">
 					{{ .Render "li" }}
 				</div>
 			{{ end }}

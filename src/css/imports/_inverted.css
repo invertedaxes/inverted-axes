@@ -16,3 +16,114 @@ body {
 .nav__underline--reversed {
   transform: skewX(45deg) translateX(-3px);
 }
+
+.article-preview__wrapper {
+  --preview-color: 242, 244, 245;
+  --title-color: white;
+  --shadow-color: black;
+}
+
+
+.article-preview {
+  position: relative;
+  display: flex;
+
+  background-color: rgba(var(--shadow-color), 1);
+
+  overflow: hidden;
+}
+
+
+.article-preview__content {
+  width: 50%;
+
+  background-color: rgba(var(--preview-color), 1);
+
+  border-bottom: 8px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+
+  color: rgb(var(--title-color));
+
+  z-index: 1;
+}
+
+.article-preview__content:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 101px;
+  height: calc(100% - 8px);
+  width: 50%;
+  clip-path: polygon(0 102%, 0% 0%, 150px 0%, 200px 102%);
+  background-color: rgba(var(--preview-color), 1);
+  border-bottom: 8px solid transparent;
+  z-index: -1;
+  transition: right 0.2s ease;
+}
+
+.article-preview__background {
+  position: absolute;
+
+  right: 0;
+  top: 0;
+
+  height: 100%;
+
+  width: 65%;
+
+  background-size: cover;
+  background-position: center center;
+
+  border-radius: 0.25rem;
+
+  z-index: 0;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.article-preview__wrapper:nth-child(3n+1) {
+ --preview-color: var(--color-primary);
+ --title-color: var(--color-primary-white);
+ --shadow-color: var(--color-primary-dark);
+}
+
+.article-preview__wrapper:nth-child(3n+2) {
+  --preview-color: var(--color-secondary);
+  --title-color: var(--color-secondary-white);
+  --shadow-color: var(--color-secondary-dark);
+}
+
+.article-preview__wrapper:nth-child(3n+3) {
+  --preview-color: var(--color-tertiary);
+  --title-color: var(--color-tertiary-white);
+  --shadow-color: var(--color-tertiary-dark);
+}
+
+.article-preview__wrapper:nth-child(2n) .article-preview__content:after {
+  clip-path: polygon(0 102%, 0% 0%, 200px 0%, 150px 102%);
+}
+
+/* hover */
+.article-preview__wrapper:hover .article-preview__content {
+  border-bottom: 8px solid rgb(var(--shadow-color));
+}
+
+.article-preview__wrapper:hover .article-preview{
+  filter: drop-shadow( 0 4px 16px rgba(var(--preview-color), 0.3));
+}
+
+.article-preview__wrapper:hover .article-preview__content:after {
+  right: 1px;
+  border-bottom: 8px solid rgb(var(--shadow-color));
+}
+
+.article-preview__wrapper:hover .article-preview__background {
+  width: calc(50% - 100px);
+}
+
+/* focus */
+.article-preview:focus {
+  box-shadow: 0 0 0 2px rgb(var(--shadow-color));
+}
