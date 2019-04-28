@@ -1,9 +1,9 @@
 ---
 title: About
 image: /img/about-shade-grown.jpg
-about:
-  - heading: Heading 1
-    imageUrl: /img/about-direct-sourcing.jpg
-    text: Body 1
+about_entries:
+  - heading: This is the heading
+    imageUrl: /img/about-single-origin.jpg
+    text: This here is the text
 ---
 
