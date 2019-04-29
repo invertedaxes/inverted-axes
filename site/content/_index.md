@@ -1,4 +1,4 @@
 ---
-schedule: false
+schedule: true
 ---
 
