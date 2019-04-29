@@ -3,7 +3,25 @@ title: About
 image: /img/58745180_2295996390660782_7652074997690662912_n.jpg
 about_entries:
   - author: Mike Pitts
-    body: "For as long as I can remember, I’ve been fascinated by stories. I would devour every story I was told, and later every book I could get my hands on. One day, I was introduced to Pitfall! on the Atari and suddenly I was able to take control of a character that seemed to be right out of the stories I loved. From that point on, I was nearly obsessed with exploring as many worlds and stories that I had the chance to. Over time I learned to fall not just for the stories, but the art and mechanics that came with so many different titles. This is what lead me to want to share my experiences with others.\r\n\nFrom Early Access to Esports, there isn’t much in the gaming world I don’t try and keep an eye on. I love watching competitive games and tournaments, play story-driven games, and mess around in the many sandboxes out there.\r\n\nYou can catch me streaming, writing the odd piece, and hanging around on our social media."
+    body: >-
+      For as long as I can remember, I’ve been fascinated by stories. I would
+      devour every story I was told, and later every book I could get my hands
+      on. One day, I was introduced to _Pitfall!_ on the Atari and suddenly I
+      was able to take control of a character that seemed to be right out of the
+      stories I loved. From that point on, I was nearly obsessed with exploring
+      as many worlds and stories that I had the chance to. Over time I learned
+      to fall not just for the stories, but the art and mechanics that came with
+      so many different titles. This is what lead me to want to share my
+      experiences with others.
+
+
+      From Early Access to Esports, there isn’t much in the gaming world I don’t
+      try and keep an eye on. I love watching competitive games and tournaments,
+      play story-driven games, and mess around in the many sandboxes out there.
+
+
+      You can catch me streaming, writing the odd piece, and hanging around on
+      our social media.
     heading: Mike Pitts
     imageUrlA: /img/mike-1.jpg
     imageUrlB: /img/mike-2.jpg
