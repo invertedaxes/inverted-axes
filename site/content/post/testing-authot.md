@@ -1,7 +1,6 @@
 ---
 title: Testing authot
-author:
-  - Inverted Axes
+author: Aaron Roberts
 date: 2019-04-29T00:16:20.866Z
 description: Author test
 ---
