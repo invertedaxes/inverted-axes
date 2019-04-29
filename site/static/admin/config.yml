@@ -11,7 +11,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "select", options: ["Inverted Axes", "Aaron Roberts", "Mike Pitts", "Ray Fisher"], default: ["Inverted Axes"]}
+      - {label: "Author", name: "author", widget: "select", options: ["Inverted Axes", "Aaron Roberts", "Mike Pitts", "Ray Fisher"], default: "Inverted Axes"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
@@ -69,6 +69,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: "author"
                 widget: "select"
                 options: ["Inverted Axes", "Aaron Roberts", "Mike Pitts", "Ray Fisher"]
-                default: ["Inverted Axes"]
-              - {label: Text, name: text, widget: text}
-              - {label: Image, name: imageUrl, widget: image}
+                default: "Inverted Axes"
+              - {label: "Body", name: "body", widget: "markdown"}
+              - {label: Image A, name: imageUrlA, widget: image}
+              - {label: Image B, name: imageUrlB, widget: image}
