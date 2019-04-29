@@ -2,8 +2,9 @@
 title: About
 image: /img/58745180_2295996390660782_7652074997690662912_n.jpg
 about_entries:
-  - author: Aaron Roberts
-    heading: This is the heading
+  - author: Mike Pitts
+    body: Mikes thing
+    heading: Mike Pitts
   - author: Aaron Roberts
     body: "I was born under a full moon in the Year of the Game Boy, so ultimately I was fated to love video games from the day of my first spawn. And with less gross phrasing, I was blessed to grow up in a home where both Nintendo and Sega were treated as equals. While the seemingly endless barrages of the early console wars exploded overhead, I was spending my days goomba-stomping, hedgehog-racing, and laying the beat down as green, bipedal, cold-blooded fighters.\r\n\nNowadays, I like to play games and then tear them apart to uncover what makes them great, and what makes them bad- or worse... _average_. My gaming passion lies in platformers, beat'em ups, and above all else- co-op games.\r\n\nAround here I'll be streaming, keeping this website working, and occasionally writing some opinions pieces and reviews."
     heading: Aaron Roberts
