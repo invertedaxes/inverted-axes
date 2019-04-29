@@ -127,3 +127,34 @@ body {
 .article-preview:focus {
   box-shadow: 0 0 0 2px rgb(var(--shadow-color));
 }
+
+.schedule-banner {
+  background-color: #812aad;
+}
+
+.schedule-banner__col {
+  flex-grow: 1;
+
+  color: white;
+}
+
+.schedule-banner__col.mike {
+  background-color: rgba(var(--color-primary));
+}
+
+.schedule-banner__col.ray {
+  background-color: rgba(var(--color-secondary));
+}
+
+.schedule-banner__col.aaron {
+  background-color: rgba(var(--color-tertiary));
+}
+
+.schedule-banner__col.human {
+  background-color: yellow;
+  color: black;
+}
+
+.schedule-banner__col.human img {
+  max-height: 100px;
+}

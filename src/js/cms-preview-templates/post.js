@@ -14,6 +14,9 @@ export default class PostPreview extends React.Component {
           height: "80px"
         }}></div>
         <p>{ format(entry.getIn(["data", "date"]), "ddd, MMM D, YYYY") }</p>
+        <p>by { entry.getIn(["data", "author"])}</p>
+      </div>
+      <div className="flex justify-between grey-3">
         <p>Read in x minutes</p>
       </div>
       <div className="cms mw6">

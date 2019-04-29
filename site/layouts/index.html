@@ -1,6 +1,8 @@
 {{ define "main" }}
 
-{{ partial "schedule-banner" .Params }}
+{{ if .Params.schedule }}
+  {{ partial "schedule-banner" .Params }}
+{{ end }}
 
 <!-- {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }} -->
 
