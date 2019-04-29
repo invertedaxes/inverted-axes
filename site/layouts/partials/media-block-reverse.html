@@ -1,15 +1,17 @@
-<div class="flex-m mhn3-m mb4">
+<div class="flex-m mhn3-m mb5">
 
-  <div class="ph3-m w-50-m order-last-m">
-    <img src="{{.imageUrlA}}" alt="" class="db mb2">
-    {{ if .imageUrlB }}
-    <img src="{{.imageUrlB}}" alt="" class="db mb2">
-    {{ end }}
+  <div class="ph4-m w-40-m order-last-m">
+    <div class="portrait--tricky">
+      <div style="background-image: url({{.imageUrlA}})" alt="" class="image--a"></div>
+      {{ if .imageUrlB }}
+      <div style="background-image: url({{.imageUrlB}})" alt="" class="image--b"></div>
+      {{ end }}
+    </div>
   </div>
 
-  <div class="ph3-m w-50-m">
+  <div class="ph3-m w-60-m">
     <h3 class="f3 b lh-title mb1">{{.heading}}</h3>
-    <div>{{.body}}</div>
+    <div class="grey-4">{{.body}}</div>
   </div>
 
 </div>

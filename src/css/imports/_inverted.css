@@ -158,3 +158,39 @@ body {
 .schedule-banner__col.human img {
   max-height: 100px;
 }
+
+.portrait--tricky {
+  position: relative;
+  border-radius: 50% !important;
+  padding-bottom: 100%;
+}
+
+.portrait--tricky .image--a {
+  position: absolute;
+  opacity: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.portrait--tricky:hover .image--a {
+}
+
+.portrait--tricky .image--b {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.portrait--tricky:hover .image--b {
+  opacity: 1;
+}
