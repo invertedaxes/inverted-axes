@@ -2,7 +2,7 @@
 	<!-- {{ if .Params.image }}<img class="article__thumbnail"src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }} -->
 	<div class="article-preview__content pa3">
 		<h2 class="f3 b lh-title mb1">{{ .Title }}</h2>
-		<p class="lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }} by {{ .Params }}</p>
+		<p class="lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }} by {{ .Params.author }}</p>
 		<p class="mb0">{{ .Description }}</p>
 		<p class="link b dib mb0">Read more →</p>
 	</div>
