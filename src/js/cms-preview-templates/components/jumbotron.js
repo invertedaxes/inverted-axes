@@ -4,7 +4,7 @@ export default class Jumbotron extends React.Component {
   render() {
     const {image, title, subtitle} = this.props;
     return <div>
-      <div className="pv5 pv6-l ph3 bg-center cover" style={{
+      <div className="inv-jumbotron pv5 pv6-l ph3 bg-center cover test" style={{
         backgroundImage: image && `url(${image})`
       }}>
         <div className="mw7 center ph3">

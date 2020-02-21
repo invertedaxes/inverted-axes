@@ -1,5 +1,6 @@
 import React from "react";
 import { List } from 'immutable';
+import ReactMarkdown from 'react-markdown';
 
 import Jumbotron from "./components/jumbotron";
 
@@ -14,13 +15,14 @@ const MediaBlock = ({heading, body, imageUrlA, reverse}) => {
     <div className="ph3-m w-50-m">
       <h3 className="f3 b lh-title mb1">{heading}</h3>
       {body}
+      {/* { widgetFor(body) } */}
     </div>
   </div>;
 };
 
 export default class ValuesPreview extends React.Component {
   render() {
-    const {entry, getAsset} = this.props;
+    const {entry, widgetFor, getAsset} = this.props;
 
     let image = getAsset(entry.getIn(["data", "image"]));
 
@@ -37,7 +39,7 @@ export default class ValuesPreview extends React.Component {
       <div className="bg-off-white pv4">
         <div className="mw7 center ph3 pt4">
           {values.map(({body, heading, imageUrlA}, i) =>
-            <MediaBlock key={i} body={body} heading={heading} imageUrlA={imageUrlA} reverse={i % 2 === 0} />
+            <MediaBlock key={i} body={body} heading={heading} imageUrlA={imageUrlA} reverse={i % 2 === 0} widgetFor={widgetFor} />
           )}
         </div>
       </div>
