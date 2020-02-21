@@ -1,17 +1,17 @@
 <div class="flex-m mhn3-m mb5">
 
-  <div class="ph4-m w-40-m">
+  <div data-title="{{.Params.title}}"class="ph4-m w-40-m order-last-m">
     <div class="portrait--tricky">
       <div style="background-image: url({{.Params.imageUrlA}})" alt="" class="image--a"></div>
-      {{ if .imageUrlB }}
-      <div style="background-image: url({{.imageUrlB}})" alt="" class="image--b"></div>
+      {{ if .Params.imageUrlB }}
+      <div style="background-image: url({{.Params.imageUrlB}})" alt="" class="image--b"></div>
       {{ end }}
     </div>
   </div>
 
   <div class="ph3-m w-60-m">
     <h3 class="f3 b lh-title mb1">{{.Params.author}}</h3>
-    <div class="grey-4">{{.Params.body}}</div>
+    <div class="grey-4">{{.Content}}</div>
   </div>
 
 </div>

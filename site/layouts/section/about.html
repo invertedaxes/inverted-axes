@@ -3,12 +3,12 @@
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 <div class="bg-off-white pv4 mr1">
   <div class="mw7 center ph3 pt4">
-
-    {{ range $index, $element := .Params.about_entries }}
+    
+    {{ range $index, $element:= (where .Data.Pages "Type" "about") }}   
       {{ if modBool $index 2 }}
-        {{ partial "media-block" $element }}
+         {{ .Render "about-block" }}
       {{ else }}
-        {{ partial "media-block-reverse" $element }}
+        {{ .Render "about-block-reverse"}}
       {{ end }}
     {{ end }}
 

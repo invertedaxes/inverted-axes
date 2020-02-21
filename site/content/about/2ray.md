@@ -1,6 +1,6 @@
 ---
-title: 'Ray'
-author: 'Ray Fisher'
+title: 2Ray
+author: Ray Fisher
 imageUrlA: /img/51914311_401112467127378_3868730639851192320_n.jpg
 imageUrlB: /img/58745180_2295996390660782_7652074997690662912_n.jpg
 ---
