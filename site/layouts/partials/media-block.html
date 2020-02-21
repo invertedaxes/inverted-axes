@@ -1,17 +1,14 @@
 <div class="flex-m mhn3-m mb5">
-
-  <div class="ph4-m w-40-m">
+  <div class="ph2-m w-40-m {{if modBool .index 2 }} {{else}}order-last-m{{end}}">
     <div class="portrait--tricky">
-      <div style="background-image: url({{.Params.imageUrlA}})" alt="" class="image--a"></div>
-      {{ if .imageUrlB }}
-      <div style="background-image: url({{.imageUrlB}})" alt="" class="image--b"></div>
+      <div style="background-image: url({{.element.Params.imageurla}})" alt="" class="image--a"></div>
+      {{ if .element.Params.imageurlb }}
+      <div style="background-image: url({{.element.Params.imageurlb}})" alt="" class="image--b"></div>
       {{ end }}
     </div>
   </div>
-
   <div class="ph3-m w-60-m">
-    <h3 class="f3 b lh-title mb1">{{.Params.author}}</h3>
-    <div class="grey-4">{{.Params.body}}</div>
+    <h3 class="">{{.element.Params.author}}</h3>
+    <div class="grey-4">{{.element.Content}}</div>
   </div>
-
 </div>

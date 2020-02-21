@@ -18,7 +18,7 @@ input, textarea {
   background-color: var(--grey-2);
   border-radius: var(--border-radius);
   padding: 12px 16px 10px;
-  font-size: var(--spacing-medium);
+  font-size: var(--base-size);
   line-height: 1.25;
   position: relative;
   transition: var(--hover-transition);
@@ -35,25 +35,25 @@ input, textarea {
 
 ::-webkit-input-placeholder {
    color: var(--black);
-   font-size: var(--spacing-medium);
+   font-size: var(--base-size);
    line-height: normal;
 }
 
 :-moz-placeholder {
    color: var(--black);
-   font-size: var(--spacing-medium);
+   font-size: var(--base-size);
    line-height: normal;
 }
 
 ::-moz-placeholder {
    color: var(--black);
-   font-size: var(--spacing-medium);
+   font-size: var(--base-size);
    line-height: normal;
 }
 
 :-ms-input-placeholder {
    color: var(--black);
-   font-size: var(--spacing-medium);
+   font-size: var(--base-size);
    line-height: normal;
 }
 

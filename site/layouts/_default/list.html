@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories" "fade" "true") }}
 
-<div class="inv-list bg-off-white pt3 pb4 mr1">
+<div class="inv-list bg-off-white pt1 pb4">
   <div class="mw7 center">
     <ul class="flex-ns flex-wrap mhn1-ns pa3">
         {{ range (.Paginator 20).Pages.Reverse }}
-        <div class="article-preview__wrapper raise w-100-ns ph1-ns flex">
+        <div class="article-preview__wrapper raise w-100-ns flex">
           {{ .Render "li"}}
           <!-- {{ .Render "media-block" }} -->
         </div>

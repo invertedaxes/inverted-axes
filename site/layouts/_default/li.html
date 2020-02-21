@@ -1,9 +1,9 @@
-<a href="{{ .Permalink }}" class="inv-article__preview article-preview no-underline br1 mb2 flex-ns w-100">
+<a href="{{ .Permalink }}" class="inv-article__preview article-preview no-underline br1 mb3 flex-ns w-100">
 	<!-- {{ if .Params.image }}<img class="article__thumbnail"src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }} -->
 	<div class="article-preview__content pa3">
-		<h2 class="f3 b lh-title mb1">{{ .Title }}</h2>
-		<p class="lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }} by {{ .Params.author }}</p>
-		<p class="mb0">{{ .Description }}</p>
+		<h2 class="fs3">{{ .Title }}</h2>
+		<p class="mb1">{{ .Date.Format "Mon, Jan 2, 2006" }} by {{ .Params.author }}</p>
+		<p>{{ .Description }}</p>
 		<p class="link b dib mb0">Read more →</p>
 	</div>
 	{{ if .Params.image }}<div class="article-preview__background" style="background-image: url('{{ .Params.image }}')"></div>{{ end }}

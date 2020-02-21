@@ -1,18 +1,19 @@
-<div class="inv-jumbotron pv4 cover" style="background-image: url('{{.imageUrl}}')">
+<div class="inv-jumbotron{{if .fade}} inv-jumbotron-fade pt5 pb5{{else}} pv4{{end}} bg-center cover" style="background-image: url('{{.imageUrl}}')">
   <div class="mw7 center ph3">
     <div class="db mb0">
-      <div class="mw7 relative bg-fix-primary mb0">
-        <h1 class="inv-title f1-l b di lh-title mb0 white mw6">
+      <div class="mw7 relative bg-fix-primary mb0 center tc">
+        <h1 class="inv-title fs1 mb0 white">
           {{.title}}
         </h1>
       </div>
+      {{ if .subtitle }}
       <div class="mw7 relative bg-fix-primary">
-        {{ if .subtitle }}
         <p class="b f4 di lh-title mb3 white mw6 bg-primary">
           {{.subtitle}}
         </p>
-        {{ end }}
       </div>
+      {{ end }}
     </div>
   </div>
+  <span class="inv-jumbotron-fade__element"></span>
 </div>

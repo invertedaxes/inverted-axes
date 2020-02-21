@@ -48,7 +48,7 @@ table {
 }
 
 input, textarea {
-	font-size: var(--spacing-medium);
+	font-size: var(--base-size);
 	border: none;
 	font-family: inherit;
 	border: 0;
