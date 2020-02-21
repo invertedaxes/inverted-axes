@@ -1,8 +1,8 @@
 ---
 title: '2'
 author: Aaron McHungry Roberts
-imageUrlA: /img/about-direct-sourcing.jpg
-imageUrlB: /img/onepanel.png
+imageUrlA: /img/aaron-1.jpg
+imageUrlB: /img/aaron-2.jpg
 ---
 I was born under a full moon in the Year of the Game Boy, so ultimately I was fated to love video games from the day of my first spawn. And with less gross phrasing, I was blessed to grow up in a home where both Nintendo and Sega were treated as equals. While the endless barrages of the early console wars exploded overhead, I was spending my days goomba-stomping, hedgehog-racing, and laying the beat down as green, bipedal, cold-blooded fighters.
 
