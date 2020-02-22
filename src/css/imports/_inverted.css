@@ -33,8 +33,12 @@ body {
   overflow: hidden;
 }
 
-
 .article-preview__content {
+  z-index: 1;
+}
+
+
+.article-preview__content--funky {
   width: 50%;
 
   background-color: rgba(var(--preview-color), 1);
@@ -48,7 +52,7 @@ body {
   z-index: 1;
 }
 
-.article-preview__content:after {
+.article-preview__content--funky:after {
   content: '';
   display: block;
   position: absolute;
@@ -83,6 +87,19 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
+.inv-article__thumbnail{
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+
+
+
 .article-preview__wrapper:nth-child(3n+1) {
  --preview-color: var(--color-primary);
  --title-color: var(--color-primary-white);
@@ -101,12 +118,12 @@ body {
   --shadow-color: var(--color-tertiary-dark);
 }
 
-.article-preview__wrapper:nth-child(2n) .article-preview__content:after {
+.article-preview__wrapper--funky:nth-child(2n) .article-preview__content:after {
   clip-path: polygon(0 102%, 0% 0%, 200px 0%, 150px 102%);
 }
 
 /* hover */
-.article-preview__wrapper:hover .article-preview__content {
+.article-preview__wrapper--funky:hover .article-preview__content {
   border-bottom: 8px solid rgb(var(--shadow-color));
 }
 
@@ -114,14 +131,25 @@ body {
   filter: drop-shadow( 0 4px 16px rgba(var(--preview-color), 0.3));
 }
 
-.article-preview__wrapper:hover .article-preview__content:after {
+.article-preview__wrapper--funky:hover .article-preview__content:after {
   right: 1px;
   border-bottom: 8px solid rgb(var(--shadow-color));
 }
 
-.article-preview__wrapper:hover .article-preview__background {
+.article-preview__wrapper--funky:hover .article-preview__background {
   width: calc(50% - 100px);
 }
+
+.inv-article-preview__underlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(var(--preview-color), 0.9);
+  z-index: 0;
+}
+
 
 /* focus */
 .article-preview:focus {
@@ -218,4 +246,11 @@ body {
   width: 100%;
   height: 150px;
   background: linear-gradient( rgba(255, 255, 255, 0), white );
+}
+
+
+.inv-post iframe:not(:last-child) {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.65rem;
 }
