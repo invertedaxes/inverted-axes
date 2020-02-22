@@ -5,7 +5,7 @@
 <div class="inv-list bg-off-white pt1 pb4">
   <div class="mw7 center">
     <ul class="flex-ns flex-wrap mhn1-ns pa3">
-        {{ range (.Paginator 20).Pages.Reverse }}
+        {{ range (.Paginator 20).Pages }}
         <div class="article-preview__wrapper raise w-100-ns flex">
           {{ .Render "li"}}
           <!-- {{ .Render "media-block" }} -->
