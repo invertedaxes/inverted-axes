@@ -1,4 +1,4 @@
-<div class="flex-m mhn3-m mb5">
+<div id="{{ substr .element.Params.author 0 3 }}" class="flex-m mhn3-m pt4 mb3">
   <div class="ph2-m w-40-m {{if modBool .index 2 }} {{else}}order-last-m{{end}}">
     <div class="portrait--tricky">
       <div style="background-image: url({{.element.Params.imageurla}})" alt="" class="image--a"></div>

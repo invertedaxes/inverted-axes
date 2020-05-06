@@ -203,9 +203,14 @@
   color: white;
 }
 
-.schedule-banner__col-portait-wrap {
+.schedule-banner__col-portait-link {
   position: relative;
+  text-decoration: none;
 }
+
+/* .schedule-banner__col-portait-link:hover {
+  opacity: 0.7;
+} */
 
 .schedule-banner__col-portait {
   position: relative;
@@ -219,7 +224,7 @@
 
 .schedule-banner__col-name {
   position: relative;
-  margin: -25px auto 0; 
+  margin: -20px auto 0; 
   z-index: 1;
   border-radius: 4px;
   padding: 0 12px;

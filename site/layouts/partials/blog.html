@@ -1,9 +1,9 @@
-<div class="inv-blog bg-off-white pv3">
+<div class="inv-blog bg-off-white pt3 pb5">
 	<div class="ph2 ph3-ns mw7 center">
 
 		<h2 class="f2 b lh-title mb3">Latest stories</h1>
 
-		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
+		<div class="w-100 flex-ns mhn1-ns flex-wrap">
 			{{ range first 12 (where .Data.Pages "Type" "post") }}
 				<div class="article-preview__wrapper raise ph1-ns w-50-ns w-100-ns flex">
 					{{ .Render "li" }}

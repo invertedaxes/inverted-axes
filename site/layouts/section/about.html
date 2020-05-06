@@ -3,7 +3,7 @@
 {{ partial "jumbotron" (dict "imageUrl" "/img/about-bg.jpg" "title" "About" "fade" "true") }}
 
 <div class="bg-white pt2 pb4">
-  <div class="mw7 center ph3 pt4">
+  <div class="mw7 center ph3 pt2">
 
     {{ range $index, $element:= (where .Data.Pages "Type" "about") }}      
       {{ partial "media-block" (dict "element" . "index" $index) }}
