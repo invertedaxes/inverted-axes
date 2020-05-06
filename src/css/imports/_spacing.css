@@ -237,8 +237,8 @@
   margin-right: var(--spacing-extra-extra-extra-large);
 }
 .mha { 
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mhn1 { margin-left: -var(--spacing-extra-small); margin-right: -var(--spacing-extra-small); }
