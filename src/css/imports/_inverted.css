@@ -87,12 +87,23 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
+/* Article Previews */
+.inv-article__preview {
+  /* @media (--breakpoint-small) {
+    flex-direction: column;
+  } */
+}
+
 .inv-article__thumbnail{
   object-fit: cover;
-  width: 150px;
-  height: calc(100% - 66px);
-  flex-shrink: 0;
   z-index:1;
+  height: 180px;
+
+  @media (--breakpoint-not-small) {
+    width: 150px;
+    height: calc(100% - 66px);
+    flex-shrink: 0;
+  }
 }
 
 .article-preview__wrapper:nth-child(3n+1) {
@@ -156,6 +167,10 @@ body {
   background-color: rgb(42, 19, 78);
 } */
 
+.inv-twitch-embed iframe {
+  max-width: 100%;
+}
+
 .inv-twitch-embed__inner {
   background-color: #9146FF;
 }
@@ -166,9 +181,15 @@ body {
   background-color: #9146FF;
   /* border-radius: 10px; */
   display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+  grid-template-rows: auto;
   grid-gap: 10px;
+  
+  @media (--breakpoint-not-small) {
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
 }
 
 .schedule-banner__col {
@@ -259,9 +280,11 @@ body {
   background: linear-gradient( rgba(255, 255, 255, 0), white );
 }
 
+.inv-post iframe {
+  width: 100%;
+}
 
 .inv-post iframe:not(:last-child) {
-  margin-left: auto;
-  margin-right: auto;
+
   margin-bottom: 1.65rem;
 }

@@ -35,3 +35,14 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+iframe {
+  max-width: 100%;
+}
+
+.m-hide {
+  @media (--breakpoint-small) {
+    display: none;
+  }
+}
+

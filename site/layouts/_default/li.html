@@ -1,5 +1,5 @@
-<a href="{{ .Permalink }}" class="inv-article__preview article-preview no-underline br1 mb3 flex-ns w-100 bg-center cover" style="background-image: url('{{.Params.image}}')">
-	{{ if .Params.image }}<img class="inv-article__thumbnail ma3 mr0"src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+<a href="{{ .Permalink }}" class="inv-article__preview article-preview no-underline br1 mb3 flex flex-column flex-row-ns w-100 bg-center cover" style="background-image: url('{{.Params.image}}')">
+	{{ if .Params.image }}<img class="inv-article__thumbnail ma3 mr0-ns mb0 mb3-ns"src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
 	<div class="article-preview__content pa3 white">
 		<h2 class="fs3">{{ .Title }}</h2>
 		<p class="mb1">{{ .Date.Format "Mon, Jan 2, 2006" }} by {{ .Params.author }}</p>
