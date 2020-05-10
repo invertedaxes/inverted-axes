@@ -1,7 +1,7 @@
 ---
 title: Character Spotlight - Corvo Attano
 author: Inverted Axes
-date: 2020-05-10T19:23:02.236Z
+date: 2019-05-16T19:23:02.236Z
 description: >
   Action based stealth games are more than just a my favourite genre of game for
   me. They were a first love in my introduction into gaming. Games like Splinter
