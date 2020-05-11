@@ -51,8 +51,8 @@
 	--color-secondary-bright: 255, 186, 186;
 	--color-secondary-dark: 229, 96, 96;
 	
-	--color-tertiary: 118, 224, 65;	/* green color */
+	--color-tertiary: 127, 218, 75;	/* green color */ 
 	--color-tertiary-white: 245, 251, 241;
-	--color-tertiary-bright: 225, 255, 207;
+	--color-tertiary-bright: 192, 241, 122;
 	--color-tertiary-dark: 105, 197, 59;
 }

@@ -1,5 +1,5 @@
-<div id="{{ substr .element.Params.author 0 3 }}" class="flex-m mhn3-m pt4 mb3">
-  <div class="ph2-m w-40-m {{if modBool .index 2 }} {{else}}order-last-m{{end}}">
+<div id="{{ .element.Params.title }}" class="inv-about-post flex-m pt4 mb3">
+  <div class="ph2-m mb3 w-80 w-40-ns mha {{if modBool .index 2 }} {{else}}order-last-m{{end}}">
     <div class="portrait--tricky">
       <div style="background-image: url({{.element.Params.imageurla}})" alt="" class="image--a"></div>
       {{ if .element.Params.imageurlb }}
@@ -8,7 +8,7 @@
     </div>
   </div>
   <div class="ph3-m w-60-m">
-    <h3 class="">{{.element.Params.author}}</h3>
-    <div class="grey-4">{{.element.Content}}</div>
+    <h3 class="tc tl-ns">{{.element.Params.author}}</h3>
+    <div class="grey-4 tj text_small">{{.element.Content}}</div>
   </div>
 </div>
