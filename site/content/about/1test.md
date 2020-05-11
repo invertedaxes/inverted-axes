@@ -1,6 +1,6 @@
 ---
 title: '2'
-author: Aaron McHungry Roberts
+author: Aaron Roberts
 imageUrlA: /img/aaron-1.jpg
 imageUrlB: /img/aaron-2.jpg
 ---
