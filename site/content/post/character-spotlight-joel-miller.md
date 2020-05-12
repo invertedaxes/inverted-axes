@@ -9,7 +9,7 @@ description: >
   how Joel evolved from this simple hardworking carpenter, into the badass we
   know and love.
 image: /img/spotlight-joel-1-.png
-thumbnail: /img/joel-and-girl.jpg
+thumbnail: ''
 halign: right
 ---
 In September of 2013 Joel’s life as a simple working man was forever changed as a spore-like outbreak began to ravage the world. After tragic events take place on the day of the outbreak, the game jumps 20 years to the summer he meets Ellie and his life is changed forever. But a lot happened in the years after the outbreak took 60% of the world's population. 
