@@ -8,7 +8,7 @@ description: >
   Created by Naughty Dog, we will be taking a deeper dive into the history of
   how Joel evolved from this simple hardworking carpenter, into the badass we
   know and love.
-image: /img/spotlight-joel-1-.png
+image: /img/58745180_2295996390660782_7652074997690662912_n.jpg
 thumbnail: /img/joel-and-girl.jpg
 ---
 In September of 2013 Joel’s life as a simple working man was forever changed as a spore-like outbreak began to ravage the world. After tragic events take place on the day of the outbreak, the game jumps 20 years to the summer he meets Ellie and his life is changed forever. But a lot happened in the years after the outbreak took 60% of the world's population. 
