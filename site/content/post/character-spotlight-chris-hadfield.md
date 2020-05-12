@@ -9,6 +9,7 @@ description: >
   little bit too limiting. There are thousands of worthy and exciting characters
   to talks about across all games; we wanted to show them the love too! To that
   end, Amiibo Spotlight will henceforth be known as Character Spotlight!
+image: /img/re7.jpg
 ---
 To go with a new name, we will also have a slightly different format. I will no longer be the only voice rambling on; as we are going to open this up to all of us here, so that we can bring you content more consistently. We hope this will make for a more pleasant stay when you come visit!
 
@@ -24,7 +25,7 @@ Originally conceived as a “blunt, tough-guy type” by the series producer Hid
 
 That all changed on July 24, 1996. The Mansion Incident. The Spencer Estate. Whatever you call it, Chris Redfield’s life was irrevocably mutated, just like the poor souls in the Mansion. Instead of becoming a monster, however, Chris’ life was changed to one of constant, desperate struggle. Having fought through the night against all manner of unspeakable Bio-Organic Weapons and sinister traps, Chris escaped the Mansion with the remnants of the S.T.A.R.S., Rebecca Chambers, Barry Burton and Jill Valentine. No one else had survived. Taking a moment to feel the sun on his face as the rescue chopper raced away, Chris knew this wasn’t the end; Umbrella would pay. They would pay for the loss of his friends and comrades, for the nightmarish experiments, for everything. He knew then he would never stop until Umbrella was no more.
 
-![](/img/chris2.png)
+![null](/img/chris2.png)
 
  As the series continued on, Chris would often find himself at the centre of the most pivotal bio-terrorism events, making appearances in seven of the series’ twelve main games. As I mentioned, Chris began as the tough guy archetype, but evolves into the guy you want on your side in a fight, the best friend that will never give up on you, no matter the cost. Resident Evil 5 focused heavily on this as Chris and his new partner, Sheva Alomar, embarked on a mission under the BSAA (Bioterrorism Security Assessment Alliance) to stop a BOW Terrorist cell from making a sale. While tackling the main mission, he was also following his own intelligence pertaining to the whereabouts of Jill, who had been declared dead. As the dust cleared at the end of RE5, Redfield had accomplished his mission, rescued Jill, dealt the final blow to a long-time nemesis, AND saved the world from total annihilation at the hands of a deadly disease.
 
