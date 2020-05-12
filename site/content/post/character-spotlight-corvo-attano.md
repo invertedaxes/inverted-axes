@@ -11,7 +11,7 @@ description: >
   this strange but wonderful love of stealth games is because I’d like to talk
   about a character from one of my favourite games, Dishonored. This character
   is the rough and mysterious  bodyguard-turned-assassin, Corvo Attano.
-image: /img/corvo1.png
+image: /img/corvo2.jpg
 ---
 
 
