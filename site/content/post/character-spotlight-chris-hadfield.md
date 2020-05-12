@@ -9,7 +9,7 @@ description: >
   little bit too limiting. There are thousands of worthy and exciting characters
   to talks about across all games; we wanted to show them the love too! To that
   end, Amiibo Spotlight will henceforth be known as Character Spotlight!
-image: /img/re7.jpg
+image: /img/chris_redfield_-_re6.png
 ---
 To go with a new name, we will also have a slightly different format. I will no longer be the only voice rambling on; as we are going to open this up to all of us here, so that we can bring you content more consistently. We hope this will make for a more pleasant stay when you come visit!
 
