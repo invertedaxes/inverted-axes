@@ -11,10 +11,14 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "select", options: ["Inverted Axes", "Aaron Roberts", "Mike Pitts", "Ray Fisher"], default: "Inverted Axes"}
+      - {label: "Author", name: "author", widget: "select", options: ["Inverted Axes", "Aaron Roberts", "Mike Pitts", "Ray Fisher", "Mike Pires", "Malcolm Jardine"], default: "Inverted Axes"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Show Intro Blurb in article?", name: "showblurb", widget: "boolean", required: false}
+      - {label: "Featured Image / Thumbnail", name: "image", widget: "image", required: false}
+      - {label: "Alternate Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Thumbnail Horizontal Alignment", name: "halign", widget: "select", options: ["center", "left", "right"], default: "center", required: false}
+      - {label: "Thumbnail Vertical Alignment", name: "valign", widget: "select", options: ["center", "top", "bottom"], default: "center", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "about" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "About Post" # Used in the UI, ie.: "New Post"
